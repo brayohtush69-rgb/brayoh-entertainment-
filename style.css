@@ -1,0 +1,527 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#000;
+    padding:20px;
+    text-align:center;
+    border-bottom:3px solid gold;
+}
+
+header h1{
+    color:gold;
+    margin:0;
+}
+
+nav{<a href="tv.html">TV Shows</a>
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+.hero{
+    .hero{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://picsum.photos/1200/500");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero-content h2{
+    color:gold;
+    font-size:40px;
+}
+
+.hero-content p{
+    font-size:18px;
+    margin:20px 0;
+}
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#1a1a1a;
+    width:280px;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #333;
+}
+
+.card h3{
+    color:gold;
+}
+
+footer{footer{
+    background:#111;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:40px;
+}
+
+footer h2{
+    color:gold;
+}
+
+footer p{
+    color:#bbb;
+}
+}
+
+.logo-icon{.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;
+}
+
+.logo-img{
+    width:180px;
+    height:auto;
+}
+}.search-bar{.search-bar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin:20px;
+}
+
+.search-bar input{
+    width:300px;
+    max-width:80%;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid gold;
+    font-size:16px;
+}
+
+.search-bar button{
+    padding:10px 20px;
+    background:gold;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}.featured{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+    text-align:center;
+    background:#1a1a1a;
+    padding:20px;
+    border-radius:12px;
+}
+
+.featured img{
+    width:100%;
+    border-radius:10px;
+}
+
+.featured h2{
+    color:gold;
+    margin:15px 0;
+}
+
+.featured button{
+    background:gold;
+    color:black;
+    border:none;
+    padding:12px 24px;
+    border-radius:6px;
+    font-weight:bold;
+    .latest-news{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.latest-news h2{
+    color:gold;
+}
+
+.news-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.news-card{
+    background:#1a1a1a;
+    width:300px;
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #333;
+}
+
+.news-card img{
+    width:100%;
+}
+
+.news-card h3{
+    color:gold;
+    padding:10px;
+}
+
+.news-card p{
+    padding:0 10px 15px;
+}cursor:pointer;
+}.about{
+    background:#111;
+    padding:50px 20px;
+    text-align:center;
+}
+
+.about h2{
+    color:gold;
+    margin-bottom:15px;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#ddd;
+}.contact-form{
+    width:90%;
+    max-width:600px;
+    margin:40px auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #444;
+    border-radius:6px;
+    background:#222;
+    color:white;
+}
+
+.contact-form button{
+    background:gold;
+    color:black;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-weight:bold;
+    cursor:pointer;
+}.hero button{
+    background:gold;
+    color:black;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
+}.newsletter{
+    background:#1a1a1a;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.newsletter h2{
+    color:gold;
+}
+
+.newsletter input{
+    width:300px;
+    max-width:80%;
+    padding:12px;
+    border:1px solid gold;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+.newsletter button{
+    padding:12px 20px;
+    background:gold;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-left:10px;
+}.read-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.read-btn:hover{
+    background:#ffd700;
+}.social-links{
+    margin:20px 0;
+}
+
+.social-links a{
+    color:gold;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    color:white;
+}.trending{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.trending h2{
+    color:gold;
+    margin-bottom:20px;
+}.featured-video{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.video-box{
+    background:#1a1a1a;
+    max-width:700px;
+    margin:20px auto;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #333;
+}
+
+.video-box h3{
+    color:gold;
+}.news-card{
+    background:#1a1a1a;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+    border:1px solid #333;
+}
+
+.news-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(255,215,0,0.3);
+}.breaking-news{
+    background:gold;
+    color:black;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    overflow:hidden;
+
+}.featured-story{
+    max-width:1000px;
+    margin:40px auto;
+    background:#1a1a1a;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.featured-story img{
+    width:100%;
+    display:block;
+}
+
+.featured-text{
+    padding:20px;
+}
+
+.featured-text h2{
+    color:gold;
+}
+
+.featured-text h3{
+    margin:10px 0;
+}.read-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.read-btn:hover{
+    background:#ffd700;
+    transform:scale(1.05);
+}.headlines{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+    background:#1a1a1a;
+    border-radius:10px;
+}
+
+.headlines h2{
+    color:gold;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.headlines ul{
+    list-style:none;
+    padding:0;
+}
+
+.headlines li{
+    padding:12px;
+    border-bottom:1px solid #333;
+}
+
+.headlines a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.headlines a:hover{
+    color:gold;
+}nav{
+    background:#111;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:10px 15px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:gold;
+    color:black;
+}body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0b0b0b;
+    color:white;
+    line-height:1.6;
+}.card{
+    background:#1a1a1a;
+    border-radius:12px;
+    padding:20px;
+    transition:0.3s;
+    border:1px solid #333;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(255,215,0,0.3);
+}
+
+.card h3{
+    color:gold;
+}
+
+.card p{
+    color:#ddd;
+}img{
+    max-width:100%;
+    border-radius:10px;
+}.latest-articles{
+    max-width:1100px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.latest-articles h2{
+    color:gold;
+    text-align:center;
+    margin-bottom:25px;
+}.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:50px 20px;
+}
+
+h1,h2,h3{
+    font-family:Arial, sans-serif;
+}
+
+p{
+    color:#ddd;
+}/* Mobile Responsive Design */
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero{
+    padding:60px 20px;
+}
+
+.hero-content h2{
+    font-size:28px;
+}
+
+.news-grid{
+    flex-direction:column;
+    align-items:center;
+}
+
+.card,
+.news-card{
+    width:90%;
+}
+
+.logo-img{
+    width:140px;
+}
+
+.search-bar{
+    flex-direction:column;
+}
+
+.search-bar input{
+    width:90%;
+}
+
+.search-bar button{
+    margin-top:10px;
+}
+
+}
